@@ -13,6 +13,8 @@ var backspaceCompare = function(s, t) {
      if(st1.length > 0 && s[i] == "#"){
          st1.pop();
      }else{
+        if(s[i] != '#')
+
          st1.push(s[i]);
      }
     }
@@ -20,6 +22,8 @@ var backspaceCompare = function(s, t) {
      if(st2.length > 0 && t[i] == "#"){
          st2.pop();
      }else{
+        if(t[i] != '#')
+
          st2.push(t[i]);
      }
     }
