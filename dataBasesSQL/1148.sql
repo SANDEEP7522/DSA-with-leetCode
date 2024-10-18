@@ -1,0 +1,13 @@
+
+# 
+# 1148. Article Views I
+# Write your MySQL query statement below
+SELECT DISTINCT VIEWER_ID AS ID
+FROM VIEWS
+WHERE AUTHOR_ID = VIEWER_ID
+ORDER BY ID I
+# Write your MySQL query statement below
+SELECT DISTINCT VIEWER_ID AS ID
+FROM VIEWS
+WHERE AUTHOR_ID = VIEWER_ID
+ORDER BY ID
